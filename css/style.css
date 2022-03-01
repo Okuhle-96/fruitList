@@ -1,0 +1,58 @@
+body {
+    background-color: darkcyan;
+}
+
+.head {
+    color: white;
+    text-decoration: overline;
+    padding: 20px;
+}
+
+.displayFruitNames {
+    font-weight: bold;
+    font-size: larger;
+    color: burlywood;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.displayFruit {
+    font-size: larger;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.inputs {
+    border: 10px solid white;
+    padding: 20px;
+    width: 50%;
+    margin:auto
+}
+
+.addThemFruits {
+    color: white;
+    font-weight: bolder;
+}
+
+.fruitName {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.fruitImage {
+    padding: 10px;
+}
+
+.addFruit {
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bolder;
+    width: 150px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
