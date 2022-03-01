@@ -50,12 +50,7 @@ function errorMessages(){
         setTimeout(function(){
             errorMsg.innerHTML = "";
          }, 2000);
-    }else if (fruitNames.includes(fruitValue) && fruits.includes(imageValue)){
-        errorMsg.innerHTML = "The fruit you have entered already exists, try a different fruit.";
-        setTimeout(function(){
-            errorMsg.innerHTML = "";
-         }, 2000);
-    }else if (fruitValue === undefined && imageValue !== undefined){
+      }else if (fruitValue === undefined && imageValue !== undefined){
         errorMsg.innerHTML = "Please enter a fruit name.";
         setTimeout(function(){
             errorMsg.innerHTML = "";
